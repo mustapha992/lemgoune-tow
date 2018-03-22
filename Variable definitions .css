@@ -1,0 +1,102 @@
+
+<Group description="اعدادات رئيسية" selector="body">
+<Variable name="keycolor" description="اللون الرئيسي" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="body.background" description="الخلفية" type="background" color='transparent' default="$(color) url(//3.bp.blogspot.com/-x6bnPQuN9YQ/VqALgnWG9-I/AAAAAAAAAuE/NUDLmab0-N4/s0-r/DSDS.jpg) no-repeat fixed top center" value="$(color) url(//3.bp.blogspot.com/-x6bnPQuN9YQ/VqALgnWG9-I/AAAAAAAAAuE/NUDLmab0-N4/s0-r/DSDS.jpg) no-repeat fixed top center"/><Variable name="wrapper" description="لون الخلفية الداخلي" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="lines" description="لون الفواصل الرئيسية" type="color" default="#eeeeee" value="#eeeeee"/>
+<Variable name="lines2" description="لون الفواصل 2" type="color" default="#120e28" value="#120e28"/>
+</Group>
+<Group description="الشريط العلوي" selector="#HeaderTop">
+<Variable name="top.back" description="الخلفية" type="color" default="#120e28" value="#120e28"/>
+<Variable name="top.pages.color" description="لون الصفحات" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="top.pages.hover.back" description="خلفية الصفحات عند المرور" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="top.pages.hover.color" description="لون الصفحات عند المرور" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="top.pages.lines" description="لون الفواصل بين الصفحات" type="color" default="#777777" value="#777777"/>
+<Variable name="top.social.back" description="خلفية ازرار التواصل" type="color" default="#242135" value="#242135"/>
+<Variable name="top.social.color" description="لون ازرار التواصل" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="top.social.title.back" description="خلفية أسم موقع التواصل" type="color" default="#242135" value="#242135"/>
+<Variable name="top.social.title.color" description="لون أسم موقع التواصل" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+<Group description="القائمة الرئيسية" selector="#LinkList101">
+<Variable name="menu.back" description="الخلفية" type="color" default="#73337d" value="#73337d"/>
+<Variable name="menu.link.back" description="خلفية الروابط" type="color" default="#73337d" value="#73337d"/>
+<Variable name="menu.link.color" description="لون الروابط" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="menu.hover.back" description="خلفية الروابط عند المرور" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="menu.hover.color" description="لون الروابط عند المرور" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="mega.menu.color" description="ميجا مينيو" type="color" default="#120e28" value="#120e28"/>
+</Group>
+<Group description="شريط آخر الأخبار" selector="#Int-one">
+<Variable name="ticker.back" description="خلفية العنوان" type="color" default="#120e28" value="#120e28"/>
+<Variable name="ticker.color" description="لون العنوان" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="ticker.links.back" description="خلفية الروابط" type="color" default="#dddddd" value="#dddddd"/>
+<Variable name="ticker.links.color" description="لون الروابط" type="color" default="#120e28" value="#120e28"/>
+</Group>
+<Group description="الواجهة" selector="#Int-two">
+<Variable name="intro.back" description="الخلفية" type="color" default="#120e28" value="#120e28"/>
+<Variable name="intro.button.back" description="خلفية الزر" type="color" default="#242135" value="#242135"/>
+<Variable name="intro.button.color" description="لون الزر" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="intro.details" description="لون التفاصيل" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="intro.button.hover.color" description="لون الزر عند المرور" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="intro.button.hover.back" description="خلفية الزر عند المرور" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="intro.label.back" description="خلفية السهم والتسميه" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="intro.label.color" description="لون السهم والتسميه" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="intro.line" description="لون الفاصل السفلي" type="color" default="#dddddd" value="#dddddd"/>
+</Group>
+<Group description="الشريط الجانبي" selector="aside">
+<Variable name="side.title.back" description="خلفية العنوان" type="color" default="#243750" value="#243750"/>
+<Variable name="side.title.color" description="لون العنوان" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="side.lines" description="الفواصل" type="color" default="#eeeeee" value="#eeeeee"/>
+<Variable name="weather.back" description="خلفية الطقس" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="weather.color" description="لون نص الطقس" type="color" default="#120e28" value="#120e28"/>
+<Variable name="side.links" description="لون الروابط" type="color" default="#444444" value="#444444"/>
+<Variable name="side.text" description="النصوص العاديه" type="color" default="#777777" value="#777777"/>
+<Variable name="side.links.hover" description="لون الرابط عند المرور" type="color" default="#000000" value="#000000"/>
+</Group>
+<Group description="التصنيفات" selector="main .Label">
+<Variable name="cate.title.back" description="خلفية العنوان" type="color" default="#120e28" value="#120e28"/>
+<Variable name="cate.title.color" description="لون العنوان" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="post.title" description="عنوان الموضوع" type="color" default="#555555" value="#555555"/>
+<Variable name="post.details" description="لون التفاصيل" type="color" default="#999999" value="#999999"/>
+<Variable name="post.details.icons" description="أيقونات التفاصيل" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="post.lines" description="الفواصل" type="color" default="#eeeeee" value="#eeeeee"/>
+<Variable name="post.image.hover" description="لون تأثير الصور" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+<Group description="أعلى الفوتر" selector="#f-row">
+<Variable name="subs.back" description="الخلفية" type="color" default="#24243e" value="#24243e"/>
+<Variable name="subs.text" description="لون النص" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="subs.buttons" description="خلفية الأزرار" type="color" default="#120e28" value="#120e28"/>
+<Variable name="subs.email.back" description="خلفية مربع الإشتراك" type="color" default="#120e28" value="#120e28"/>
+<Variable name="subs.email.color" description="لون نص مربع الاشتراك" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="subs.button.back" description="خلفية زر إشتراك" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="subs.button.color" description="لون زر الإشتراك" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="subs.button.back.hover" description="خلفية زر الاشتراك عند المرور" type="color" default="#3996ab" value="#3996ab"/>
+<Variable name="subs.button.color.hover" description="لون زر الاشتراك عند المرور" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+<Group description="الفوتر" selector="footer">
+<Variable name="footer.back" description="الخلفية" type="color" default="#120e28" value="#120e28"/>
+<Variable name="footer.title" description="عنوان العناصر" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="footer.lines" description="الفواصل" type="color" default="#73337d" value="#73337d"/>
+<Variable name="footer.links" description="لون الروابط" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="footer.links.hover" description="لون الروابط عند المرور" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="footer.text" description="لون النص العادي" type="color" default="#999999" value="#999999"/>
+</Group>
+<Group description="شريط الحقوق" selector="#copyrights">
+<Variable name="copts.back" description="خلفية الشريط" type="color" default="#24243e" value="#24243e"/>
+<Variable name="copts.line" description="لون الفاصل" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="copts.text" description="لون النص" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="copts.link" description="لون الروابط" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="copts.soc.back" description="خلفية أزرار التواصل" type="color" default="#120e28" value="#120e28"/>
+<Variable name="copts.soc.color" description="لون أزرار التواصل" type="color" default="#dddddd" value="#dddddd"/>
+</Group>
+<Group description="الموضوع" selector=".post-body">
+<Variable name="postbody.title.back" description="خلفية العنوان" type="color" default="#120e28" value="#120e28"/>
+<Variable name="postbody.title.color" description="لون العنوان" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="postbody.text" description="اللون الافتراضي للنصوص" type="color" default="#120e28" value="#120e28"/>
+<Variable name="postbody.link" description="لون الروابط" type="color" default="#000000" value="#000000"/>
+<Variable name="postbody.details" description="التفاصيل" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="postbody.details.icon" description="ايقونات التفاصيل" type="color" default="#9e2f5e" value="#9e2f5e"/>
+<Variable name="postbody.lines" description="الفواصل" type="color" default="#eeeeee" value="#eeeeee"/>
+<Variable name="postbody.subtitle" description="العناوين الثانوية" type="color" default="#242135" value="#242135"/>
+<Variable name="related.links" description="عنوان موضوع متعلق" type="color" default="#242135" value="#242135"/>
+<Variable name="related.details" description="تفاصيل موضوعات متعلقه" type="color" default="#aaaaaa" value="#aaaaaa"/>
+<Variable name="comm.back" description="خلفية أزرار التعليقات" type="color" default="#ddd" value="#dddddd"/>
+</Group>
